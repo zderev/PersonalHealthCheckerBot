@@ -1,1 +1,1 @@
-# PersonalHealthCheckerBot
+# Personal CBT Bot
