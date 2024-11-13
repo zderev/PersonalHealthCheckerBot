@@ -1,5 +1,13 @@
-Установите в .env токен бота и администраторов id админа можно узнать тут -> https://t.me/GetChatID_IL_BOT прописав /me
+`python3 -m venv venv`
 
-Установите **FFmpeg**, если его нет на устройстве, установите его тут -> https://getffmpeg.org
+`source ./venv/bin/activate`
 
-FFMPEG_PATH - там находится **ffmpeg.exe**
+`pip install -r requirements.txt`
+
+`sudo nano /lib/systemd/system/bot.service`
+
+`sudo systemctl daemon-reload`
+
+`sudo systemctl enable bot.service`
+
+`sudo systemctl start bot.service`

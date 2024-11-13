@@ -1,0 +1,14 @@
+[Unit]
+Description=CBT BOT
+After=network.target
+
+[Service]
+Type=idle
+Restart=always
+RestartSec=3
+User=root
+WorkingDirectory=/root/repo/zderev_cbt_bot
+ExecStart=/root/repo/zderev_cbt_bot/venv/bin/python /root/repo/zderev_cbt_bot/bot.py
+
+[Install]
+WantedBy=multi-user.target

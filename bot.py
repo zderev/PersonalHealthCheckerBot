@@ -7,6 +7,7 @@ import tempfile
 import speech_recognition as sr
 from dotenv import load_dotenv
 
+
 # Загрузка токена и списка администраторов
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
