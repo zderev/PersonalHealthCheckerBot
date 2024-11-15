@@ -190,7 +190,7 @@ def send_results(user_id):
     for question in tests[test_name]["questions"]:
         answer = answers.get(question, "")
         result.append(f"{question}:{answer}")
-    result_message = f" {delimiter} ".join(result)
+    result_message = f"{delimiter}".join(result)
 
     bot.send_message(user_id, f"Результат:\n{result_message}")
 
