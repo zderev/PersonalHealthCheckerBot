@@ -13,10 +13,10 @@
         }
     },
     "Заметка по книге": {
-        "questions": ["Чтобы вы хотели отметить?"],
+        "questions": ["Заметка"],
         "format": {
             "tag": "rubin:the_creative_act",
-            "del": "\n"
+            "del": "|"
         }
     }
 }
