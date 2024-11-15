@@ -15,7 +15,7 @@
     "Заметка по книге": {
         "questions": ["Заметка"],
         "format": {
-            "tag": "rubin:the_creative_act",
+            "tag": "rubin:the_creative_act\n",
             "del": "|"
         }
     }
